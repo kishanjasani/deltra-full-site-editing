@@ -41,7 +41,7 @@ class Assets {
 	public function register_styles() {
 
 		// Register Styles.
-		wp_register_style( 'main-css', DELTRA_BUILD_CSS_URI . '/main.css', [ 'bootstrap-css' ], filemtime( DELTRA_BUILD_CSS_DIR_PATH . '/main.css' ), 'all' );
+		wp_register_style( 'main-css', DELTRA_BUILD_CSS_URI . '/main.css', [], filemtime( DELTRA_BUILD_CSS_DIR_PATH . '/main.css' ), 'all' );
 
 		// Enqueue Styles.
 		wp_enqueue_style( 'main-css' );
@@ -55,7 +55,7 @@ class Assets {
 	public function register_scripts() {
 
 		// Register Scripts.
-		wp_register_script( 'main-js', JK_BUILD_JS_URI . '/main.js', [], filemtime( JK_BUILD_JS_DIR_PATH . '/main.js' ), true );
+		wp_register_script( 'main-js', DELTRA_BUILD_JS_URI . '/main.js', [], filemtime( DELTRA_BUILD_JS_DIR_PATH . '/main.js' ), true );
 
 		// Enqueue Scrips.
 		wp_enqueue_script( 'main-js' );

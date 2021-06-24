@@ -90,10 +90,26 @@
 /*!**************************!*\
   !*** ./src/js/single.js ***!
   \**************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _sass_single_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../sass/single.scss */ "./src/sass/single.scss");
+/* harmony import */ var _sass_single_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_sass_single_scss__WEBPACK_IMPORTED_MODULE_0__);
+// Styles
+
+
+/***/ }),
+
+/***/ "./src/sass/single.scss":
+/*!******************************!*\
+  !*** ./src/sass/single.scss ***!
+  \******************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-
+// extracted by mini-css-extract-plugin
 
 /***/ })
 
