@@ -1,4 +1,19 @@
 {
+    "version": 1,
+	"templateParts": [
+		{
+			"name": "header",
+			"area": "header"
+		},
+		{
+			"name": "footer",
+			"area": "footer"
+		},
+		{
+			"name": "sidebar",
+			"area": "sidebar"
+		}
+	],
     "settings": {
         "color": {
             "custom": true,
