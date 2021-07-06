@@ -354,10 +354,6 @@
         {
             "name": "Footer",
             "area": "footer"
-        },
-        {
-            "name": "Sidebar",
-            "area": "sidebar"
         }
     ],
     "customTemplates": [
