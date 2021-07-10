@@ -75,17 +75,6 @@ class DELTRA_THEME {
 		add_theme_support( 'wp-block-styles' );
 
 		/**
-		 * Some blocks such as the image block have the possibility to define
-		 * a “wide” or “full” alignment by adding the corresponding classname
-		 * to the block’s wrapper ( alignwide or alignfull ). A theme can opt-in for this feature by calling
-		 * add_theme_support( 'align-wide' ), like we have done below.
-		 *
-		 * @see Wide Alignment
-		 * @link https://developer.wordpress.org/block-editor/developers/themes/theme-support/#wide-alignment
-		 */
-		add_theme_support( 'align-wide' );
-
-		/**
          * Loads the editor styles in the Gutenberg editor.
          *
          * Editor Styles allow you to provide the CSS used by WordPress’ Visual Editor so that it can match the frontend styling.
